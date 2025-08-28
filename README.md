@@ -1,4 +1,5 @@
 Project Title: Adult Income Prediction with SageMaker XGBoost
+
 This project demonstrates a complete machine learning workflow to predict whether an individual's income exceeds $50,000 based on census data. The solution uses Amazon SageMaker for scalable, cloud-based model training and deployment, with XGBoost as the core algorithm.
 
 Workflow Overview
