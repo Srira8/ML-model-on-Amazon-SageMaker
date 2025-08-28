@@ -1,6 +1,6 @@
 Project Title: Adult Income Prediction with SageMaker XGBoost
 
-This project demonstrates a complete machine learning workflow to predict whether an individual's income exceeds $50,000 based on census data. The solution uses Amazon SageMaker for scalable, cloud-based model training and deployment, with XGBoost as the core algorithm.
+This project demonstrates a comprehensive machine learning workflow for predicting whether an individual's income exceeds $50,000, based on census data. The solution uses Amazon SageMaker for scalable, cloud-based model training and deployment, with XGBoost as the core algorithm.
 
 Workflow Overview
 Data Preparation: The Adult Census Income dataset is loaded, cleaned, and split into training, validation, and test sets.
@@ -74,7 +74,7 @@ sklearn.metrics.confusion_matrix(...) and sklearn.metrics.classification_report(
 
 plt.hist(...): Visualizes the distribution of the model's output probabilities.
 
-np.arange(...) and sklearn.metrics.log_loss(...): Finds the optimal cutoff threshold for the predictions by calculating the log loss across a range of values. The cutoff that minimizes log loss is identified as the best threshold.
+np.arange(...) and sklearn.metrics.log_loss(...): Find the optimal cutoff threshold for the predictions by calculating the log loss across a range of values. The cutoff that minimizes log loss is identified as the best threshold.
 
 How to Run
 Set up a SageMaker Notebook Instance: Launch a new notebook instance in your AWS account.
